@@ -1,0 +1,744 @@
+{
+  "logLevel": "debug",
+  "appearance": {
+    "mode": 1,
+    "darkThemes": [
+      "midnight"
+    ],
+    "lightThemes": [
+      "daylight"
+    ],
+    "themeDark": "midnight",
+    "themeLight": "daylight",
+    "icons": [
+      "material",
+      "ant"
+    ],
+    "icon": "material",
+    "nativeEmoji": false,
+    "codeBlockThemeLight": "github",
+    "codeBlockThemeDark": "base16/dracula",
+    "lang": "zh_CHT",
+    "customCSS": false,
+    "closeButtonBehavior": 0,
+    "closeKernelWhenExitingUI": true
+  },
+  "langs": [
+    {
+      "label": "English",
+      "name": "en_US"
+    },
+    {
+      "label": "Français",
+      "name": "fr_FR"
+    },
+    {
+      "label": "繁體中文",
+      "name": "zh_CHT"
+    },
+    {
+      "label": "简体中文",
+      "name": "zh_CN"
+    }
+  ],
+  "lang": "zh_CHT",
+  "fileTree": {
+    "alwaysSelectOpenedFile": false,
+    "openFilesUseCurrentTab": false,
+    "refCreateSavePath": "",
+    "createDocNameTemplate": "",
+    "maxListCount": 512,
+    "sort": 6
+  },
+  "editor": {
+    "autoSpace": false,
+    "mathEngine": "KaTeX",
+    "fontSize": 16,
+    "fontFamily": "",
+    "codeSyntaxHighlightLineNum": true,
+    "codeTabSpaces": 0,
+    "codeLineWrap": false,
+    "codeLigatures": false,
+    "displayBookmarkIcon": true,
+    "displayNetImgMark": false,
+    "generateHistoryInterval": 10,
+    "historyRetentionDays": 30,
+    "emoji": [],
+    "virtualBlockRef": false,
+    "virtualBlockRefExclude": "",
+    "blockRefDynamicAnchorTextMaxLen": 64
+  },
+  "export": {
+    "paragraphBeginningSpace": false,
+    "addTitle": false,
+    "blockRefMode": 4,
+    "blockEmbedMode": 1,
+    "blockRefTextLeft": "\"",
+    "blockRefTextRight": "\"",
+    "tagOpenMarker": "#",
+    "tagCloseMarker": "#"
+  },
+  "graph": {
+    "maxBlocks": 10240,
+    "local": {
+      "depth": 1,
+      "dailyNote": true,
+      "type": {
+        "tag": true,
+        "paragraph": true,
+        "heading": true,
+        "math": true,
+        "code": true,
+        "table": true,
+        "list": true,
+        "listItem": true,
+        "blockquote": true,
+        "super": true
+      },
+      "d3": {
+        "nodeSize": 15,
+        "linkWidth": 8,
+        "lineOpacity": 0.36,
+        "centerStrength": 0.01,
+        "collideRadius": 600,
+        "collideStrength": 0.08,
+        "linkDistance": 400,
+        "arrow": true
+      }
+    },
+    "global": {
+      "minRefs": 0,
+      "dailyNote": false,
+      "type": {
+        "tag": false,
+        "paragraph": false,
+        "heading": false,
+        "math": false,
+        "code": false,
+        "table": false,
+        "list": false,
+        "listItem": false,
+        "blockquote": false,
+        "super": false
+      },
+      "d3": {
+        "nodeSize": 15,
+        "linkWidth": 8,
+        "lineOpacity": 0.36,
+        "centerStrength": 0.01,
+        "collideRadius": 600,
+        "collideStrength": 0.08,
+        "linkDistance": 400,
+        "arrow": true
+      }
+    }
+  },
+  "uiLayout": {
+    "bottom": [],
+    "hideDock": false,
+    "layout": {
+  "children": [
+  {
+    "children": [
+  {
+    "children": [],
+    "instance": "Wnd"
+  },
+  {
+    "children": [],
+    "instance": "Wnd",
+    "resize": "lr"
+  }
+],
+    "direction": "lr",
+    "instance": "Layout",
+    "size": "0px",
+    "type": "top"
+  },
+  {
+    "children": [
+  {
+    "children": [
+  {
+    "children": [],
+    "instance": "Wnd"
+  },
+  {
+    "children": [],
+    "instance": "Wnd",
+    "resize": "tb"
+  }
+],
+    "direction": "tb",
+    "instance": "Layout",
+    "size": "240px",
+    "type": "left"
+  },
+  {
+    "children": [
+  {
+    "children": [
+  {
+    "children": {
+  
+},
+    "instance": "Tab"
+  }
+],
+    "height": "",
+    "instance": "Wnd",
+    "width": ""
+  }
+],
+    "direction": "lr",
+    "instance": "Layout",
+    "resize": "lr",
+    "size": "auto",
+    "type": "center"
+  },
+  {
+    "children": [
+  {
+    "children": [],
+    "instance": "Wnd"
+  },
+  {
+    "children": [],
+    "instance": "Wnd",
+    "resize": "tb"
+  }
+],
+    "direction": "tb",
+    "instance": "Layout",
+    "resize": "lr",
+    "size": "0px",
+    "type": "right"
+  }
+],
+    "direction": "lr",
+    "instance": "Layout",
+    "resize": "tb",
+    "size": "auto",
+    "type": "normal"
+  },
+  {
+    "children": [
+  {
+    "children": [],
+    "instance": "Wnd"
+  },
+  {
+    "children": [],
+    "instance": "Wnd",
+    "resize": "lr"
+  }
+],
+    "direction": "lr",
+    "instance": "Layout",
+    "resize": "tb",
+    "size": "0px",
+    "type": "bottom"
+  }
+],
+  "direction": "tb",
+  "instance": "Layout",
+  "type": "normal"
+},
+    "left": [
+  [
+    {
+      "show": false,
+      "size": {
+  "height": 0,
+  "width": 240
+},
+      "type": "file"
+    },
+    {
+      "show": true,
+      "size": {
+  "height": 0,
+  "width": 240
+},
+      "type": "outline"
+    }
+  ],
+  [
+    {
+      "show": false,
+      "size": {
+  "height": 0,
+  "width": 240
+},
+      "type": "bookmark"
+    },
+    {
+      "show": true,
+      "size": {
+  "height": 0,
+  "width": 240
+},
+      "type": "tag"
+    }
+  ]
+],
+    "right": [
+  [
+    {
+      "show": false,
+      "size": {
+  "height": 0,
+  "width": 360
+},
+      "type": "graph"
+    },
+    {
+      "show": false,
+      "size": {
+  "height": 0,
+  "width": 360
+},
+      "type": "globalGraph"
+    }
+  ],
+  [
+    {
+      "show": false,
+      "size": {
+  "height": 0,
+  "width": 360
+},
+      "type": "backlink"
+    }
+  ]
+],
+    "top": []
+  },
+  "userData": "",
+  "account": {
+    "displayTitle": true,
+    "displayVIP": true
+  },
+  "rsa": {
+    "privateKey": "78efdf7115f8e19dd78d8ebfd7f53d6e848d5aaf0cc3a3b9d9d4bdf3e73e10bef4a6c1614667ef45a5fefe4a2f311f2d35b34e769fec891785a82548a32aad4807c699820be9c6a5104cb1aa5845f1443484bd7ae10f51b009656cfbf79bd02980cc591d543b6574430f35f19ec071840b63b7786e5be0c6ca23be302a3913ff2e60b0035d3aead309261de9d0114ce58285b19902df2db8f8463f804118dd5a119699472f0c0fdbc7042357e467d79840879313a22a3d206f05d6e4e5c7bd0aa62003da3e32b79623c6ddf38f1dbd74f02f938b90b9832f4a27e71a84c26e2e3ce1a941943832505a5dc4be26b35517dacd517e0bc50d4d5968103d873f84a472ee984e1dfdeff603eb54f82ed89c72e5c1eba5e1e69026c3a0b943dc0188d7083dbb55cfcd54a076f71599f63d2daa3f8f15ff133f8255a7c0533511646af48c3fe0dcdcf67361fa1d6933a514a5e280dd4fcd6ff0e4f20b4468f4c8a93e817e90750c55a2f035b66f69b92de5233c659d087e4b710ca866f91fac6ce7af2518ff1a051c3403e0166de1f1fe8b42612d5cdbdb6806ec63200ce766dbc935b5d17c06b998b15de9392d5df85d4766cf1b485aad75789349fd4c32a93b0fbc3209801b7da272d92e72a638211c35682c7435a7352c237b7ec6807b7191599019e95bd95167c9d5258a1646f5151a2850e01db6857bf2f30c54d861e41b8b39f82dccd63481298063941e32f409c5dd8475869fb945e3fb246b2a6288bb029f1a85874beaa0063dccccd9dc7e38a279a3f298c0f00961b1443a84c423592efc751c4a486e27b55d71c3a7af240b4a42016d254e0fabf7a301ecea7fe6ee745cd5df7b74e2da928e787ae3dda2c86e00896d1b2c4caab890875a13d288c8e338c2764af4ac9895046803ccd44900b2fbbeb3abb4255ad2a3ce22b46adbea340ce210c8d583be85fdd651d5747910a79983547d4deb62a49f90e094a4c34e42585661b0020e06624d808944ae79b625be4d40db1ebd30787a4c3bc531442f7927f8af60f040d4f4c3893062cd2c681dd35a29fd4a98e7f6a19dc509e7de04ba0c67be164f3349ddb73e08dcf4d9be807a438be38d5fa02a3230b2046f4df8c625b7d0edad426c6a72984eda827bdd2a56f3f2a977b1543d1df6cbcea3e4919a9728cb3e5256474e588bff3696a9f593310c113d3a77c10b9f19c955d516bea40c12346f5a406300cd077bfaccb9f37e29c87115ebe80e71ac3a147a7896ac835f9d1e9666099dea8ec4ba47be0be852312b690c35e2a21ad99f39efb738e25971dc9402e967885fb611a5815140763aa04310ad39bf943dd85cfa94aa873be968f33318e18c007d3f5c126aa2fe624710395dc89aa46163c7bdd68d8b76dc993b0a81715968327e2fbed9039f670f5416ed9ac7a5d2826003385f683626de86e3a29ec975b8ce365d626eae37a709d974461942e7ad95d93e8676ead936429e0820cf5ca885c6bff042d63ba2e18e2fc340e048200738b8825ac950da7ef9882b51c9d6de7f25d5771aac8f2fc8b3c2390c7518a3372d34da0d757e73733cbd49242cc6db649e5df765ee256c92367b38489f185d63595599548d4a5c0466f6ad12c70fd17d0420c1c97c06d97557b587018edb7b98804cf2bac9715187643aae52e6fc1ed2d12f226b736c3927203bcb8d967daf7ef450bd1c5bbb935dd11fa47b4483fd204a731e53abe4368682d79b3b83f176e4f7dccf6969c6dd8dd806fde732f04a3bb55429908541980a794d0539aaa55e1b2a98607305ff358d09b4dd3e1ad3d73722ab43d688e9dbf2a2a2b824987c818f533b99c3634aee443ffbaae15f0034c8cd0eeba0ebdbefcf084ab119f2394a4156fa2d52866bc6944b9f90ce7f22b1dfc48596f5261125309f2ab48089c7c7fac1ed7667ade157ff1527b83fadad304f999dd04b38efe6d059863cdbb13153feb64adcca7a9cd799b59454a6ff3fe5cab1369f3afe9ee633fd039545fc00e2c8f274983e508f9d65fd109df97550e832eea5f084232ed41eac954521c79a6aafb472ad61369b35385902f74f82a6453efff505cca5acdbc8b23bb6c144a6b8026b3b583c0ddc8182e221cfd306f14c869ca67c01f8659e2a453fcc311c4d086c30d6003d7e7c0590319fe256af0454ddc302dadd001a4bfbc934eeec7dec251826bf9c7af60ec7c4fbf27e81f2d7a2673d24164a344cddd268799eff71967ba2a23004ca568b4fe4254fbc31f30374570eca3eb53b1d91ed17230503ec2ae77617d3bc7500dcf4fc2b4d6995f78c713ceedac30ac117ea4dc2c9da3491483f81ab6e8cee75775c542cf04768195f109092a0dcd8625dc2a9f9261598afc21eac6a4236ce378f935c955073ab9c8f9bf0a69aae76bd81a7d31f81884071dacf67a50239e68487d3a93f61cd6ec9a27a3e50552ce649b2cf1550b4ed5c509ef45ff297f4211dfb068d3221a55f084d2f4b56967308188b8ab95ebfaf4447a65c23a55cb4f879882e51fb2f1f93fecb39de9c067a6246fb22b7c5c53eba7508082fd677d204944969aac954a2b37cc213511ecf03e0f3bb4517c987e35cc23d533e4bbc0cad89faf53c317f9a3fe1b245aec3c9ac96986ed34d395d2721d05a8909a9e404f9a2604320938d5820ca1698dd7f213ff6528217b48612d74b23c4830d5e3ea86bc5eecfffef00bf9489c46022f295c73c115c6d6af1d040ce17beeda1dfc740523eda93e497e3a9fccbbf8a40910d8b0f038a98a3b53f44a3a890d5e520fbd5c17d893f363c3728a408600fce294bba6ad46192a1ec887b6f6c2c826c25c0165e98f47fc12071cca308dbcf043f57fc39854a5085e256546676414e4d9c6271f3aa377e656065ec844289ee5e247ac82b94e41048a5dd8002fe4b6beb427c29f3c83065b50fde29f3fdd65c622a272daaf167f02846b5fb5b8353aa8d9a71241a83fad83c3d8d125db5a30331813ddaea66260587fa67de3c33700fcb68bb571e0b4f686032327a4fadce2d3ea5a178a851c56486c98fd6613c23021336224df8a796d88530efd3510af6306885c10585073a291f4d60bcb38c921b3aa45cc9264513a88587a38f1c5b367e2e9586b963a28c79b6f4e22c904ab5a801b752268329b3ecb4dba178a52abd91cb8a15736a09ec7489cd5040836b9cacd97e3d33766a3d19a02880958702a5a74215149d4be456396fdb116021150fd78ba8a447b537aa490dd6944952097dadd70d9b02ce11f7f818edef359ec5fd6a1b3c43659d6c6c33c5061bad984a2a7e6b222b20d5903b58a949c0f774d5144c771395448f7f8208d264643092fcc3e96cb11ce1a6a282111b4c851220910613c9ca48e5e42302aaae1fa7e803ed317ae317d77cbe1e2e369a38efafbd8ed0fa52240253e1d7c10d7705b785fa5ff742b49af8f5bf50c00e985fdb66f8135dfd40dd521c302a1b9f6c04d13f23d53a22c36abc0ab5e3b2a495e7f89fca4b67509d130c443d80b48abad1a3f379943ec48f66d3c6ca20190b1604f4e86b174313e0c08fe52f26c28f1e66ea8258160878069570bf1d825bf2d3372e5dbc3bca0efba0cba48b0c5d1412e864b7ef1dd26b161bb80a5047c29a0294edb749d0eb3f4f39c0727d3885e51c0377ff0a328e3a96a5a397f593dfba070c350420e3b466cc2bac0f7fb047a586d7ce8aaa37ebd447b147860f8176d183437bd8bb79e48f487ba4ba6f1465540dfe7bd15297a3336651e3614fe297798d344a77b99c99341f5c2c50978e0e68708f05224289c1d8bd8dd0eecd45fd296b52b6ef9c1bac43ffede2591da6a2747363f339a4526894aba01583b9ff58a2736ba405ccb2714d921690bd4e8d36833d02c90e9035eb0473f5a0f675d7f7a193269e9ef91b3031e51cf206b0c0a88714a5a76b9b78222f33d631a4a57a469cc5c06df7163f6c41fcaeb395afcf3c1cd61c4645a28c15d2a87e3024d9a3f842f64cc64d1f8124316b9c11f12885f2ad92bb56a7a5c0ef880c7b8eb5171bdefe2806c8076f481153245ab8cd0e2b311958164b183fca3c1f12ac93f8e3410cdaccc77e35efe4e9f57a73f60caa9323e3bc12a1a3b3d84dfe22c15a49ff8423c8bbe1af7e9de397c50557de47142c078f77be9967797e7626ed9bf723aba3ea31b9011e16923cf9cd7ea976e1cd4f2ca3dd52fed7091926138c452d4750e33b7c06fcd0229adad5e98d151fddf3d91090a69fb1b9ab4d9d3b35ba46dc2f3ac67d95b4aa94954588d8907589657a1b9c0fa646316f16f681e1c6e56e9aedea14a58c53483379fc97c7733e04a11f1a7121f109b2c9f9e77b744ee765aaa5a17b55762f42e3feb27918e606a8678f7230617d1d0401cdaf3d69a3603f3ff24896bac1646d4bed38513a8cf3d67ed1afc27c16ce813aa6b20fb85d335bdb166d82c94c622e5c04b7f256b2ab470e03362cbf50e23ccf1924cf89cbfd66ace5827033ae54290d17f4fb9d13fd5f88593c7e49e3b21300c27d3e6285e5066e32086f98a1fbaec634d1e71cda698b06e6008374c68466b5c1c209f25a9364baac20e9a9cf5dbb2c0eaa5b1f481e96a5fc863a6aa817241459c2cbe72db521dba3f5af1eeae0a6a952ba95cc9c07b859a023b4ece5ec74640d80fe9ad34dc6bc9f86d9f40d63f63682201ea1d2c73867036a306dd0cdada7b589e0eb4c7091f7d5e043aab42c0dc149e2eafe4641fd2b42227c6c36a2f2f98b",
+    "publicKey": "c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFDL0JKR0twSWJyanRTWEI5MXE0NVduVkV5dndyV2dwSVhlK3czSVkrVDZ4MWRjbzlZRWxCVUFLZXZkL2g1cFd5TkZWUUxBUmhRY2pYOFQ2SEVRY0NaWjBRZkJSRkdMV2Q5RUJTNnMvTjlHUk9xQ253LzRkY2huYzZ5aTVoekpSaEFxa3MxQzJkRjRlZmpxV3JhdVV3WDRyVmNIeWJNNmMvYys1Z2tQWVBuSEM5bTQxNWJNLzR1bU5vcWVwL3RkcCtGa1VPVjhNbXQ0SldiS21DSUFrcGNGNUlXRWszT29ySG5STXJrcTBSQTh4VStEM2UvUWdRVXI4cW1Od0lybllBTGZraklMNkRXdEtocUE3UVpVOTN4MnhSRm5yb3lxaG0yUTNjT3FmVVdrVFYwbElub3V1YnhzMTlsVHFTSWt4Qy83UStjTUdhT280K0p1ZU1yUy9vWXoK"
+  },
+  "readonly": false,
+  "localServeURL": "http://192.168.1.102:6806",
+  "accessAuthCode": "",
+  "e2eePasswd": "",
+  "checkUpdate": 0,
+  "system": {
+    "kernelVersion": "1.5.0",
+    "os": "linux",
+    "container": "std",
+    "isInsider": false,
+    "homeDir": "/home/lj",
+    "workspaceDir": "/home/lj/Documents/GitHub/life_note",
+    "appDir": "/tmp/.mount_siyuanMe5UT1/resources",
+    "confDir": "/home/lj/Documents/GitHub/life_note/conf",
+    "dataDir": "/home/lj/Documents/GitHub/life_note/data",
+    "networkServe": false,
+    "networkProxy": {
+      "scheme": "",
+      "host": "",
+      "port": ""
+    },
+    "useExistingDB": false
+  },
+  "keymap": {
+    "editor": {
+  "general": {
+  "alignCenter": {
+  "custom": "⌥C",
+  "default": "⌥C"
+},
+  "alignLeft": {
+  "custom": "⌥L",
+  "default": "⌥L"
+},
+  "alignRight": {
+  "custom": "⌥R",
+  "default": "⌥R"
+},
+  "attr": {
+  "custom": "⌥⌘A",
+  "default": "⌥⌘A"
+},
+  "backlinks": {
+  "custom": "⌥B",
+  "default": "⌥B"
+},
+  "copyBlockRef": {
+  "custom": "⇧⌘C",
+  "default": "⇧⌘C"
+},
+  "copyProtocol": {
+  "custom": "⇧⌘H",
+  "default": "⇧⌘H"
+},
+  "fullscreen": {
+  "custom": "⌥Y",
+  "default": "⌥Y"
+},
+  "globalSearch": {
+  "custom": "⇧⌘F",
+  "default": "⇧⌘F"
+},
+  "graphView": {
+  "custom": "⌥G",
+  "default": "⌥G"
+},
+  "history": {
+  "custom": "⌥H",
+  "default": "⌥H"
+},
+  "insertAfter": {
+  "custom": "⇧⌘A",
+  "default": "⇧⌘A"
+},
+  "insertBefore": {
+  "custom": "⇧⌘B",
+  "default": "⇧⌘B"
+},
+  "moveToDown": {
+  "custom": "⇧⌘↓",
+  "default": "⇧⌘↓"
+},
+  "moveToUp": {
+  "custom": "⇧⌘↑",
+  "default": "⇧⌘↑"
+},
+  "newContentFile": {
+  "custom": "F4",
+  "default": "F4"
+},
+  "newNameFile": {
+  "custom": "F3",
+  "default": "F3"
+},
+  "outline": {
+  "custom": "⌥O",
+  "default": "⌥O"
+},
+  "pasteAsPlainText": {
+  "custom": "⇧⌘V",
+  "default": "⇧⌘V"
+},
+  "ppt": {
+  "custom": "⌥⌘0",
+  "default": "⌥⌘0"
+},
+  "preview": {
+  "custom": "⌥⌘9",
+  "default": "⌥⌘9"
+},
+  "redo": {
+  "custom": "⌘Y",
+  "default": "⌘Y"
+},
+  "refBottom": {
+  "custom": "⌥.",
+  "default": "⌥."
+},
+  "refPopover": {
+  "custom": "⌥⌘.",
+  "default": "⌥⌘."
+},
+  "refRight": {
+  "custom": "⇧\u003e",
+  "default": "⇧\u003e"
+},
+  "refTab": {
+  "custom": "⇧⌘.",
+  "default": "⇧⌘."
+},
+  "refresh": {
+  "custom": "F5",
+  "default": "F5"
+},
+  "rename": {
+  "custom": "F2",
+  "default": "F2"
+},
+  "search": {
+  "custom": "⌘F",
+  "default": "⌘F"
+},
+  "showInFolder": {
+  "custom": "⌥A",
+  "default": "⌥A"
+},
+  "undo": {
+  "custom": "⌘Z",
+  "default": "⌘Z"
+},
+  "wysiwyg": {
+  "custom": "⌥⌘7",
+  "default": "⌥⌘7"
+}
+},
+  "heading": {
+  "heading1": {
+  "custom": "⌥⌘1",
+  "default": "⌥⌘1"
+},
+  "heading2": {
+  "custom": "⌥⌘2",
+  "default": "⌥⌘2"
+},
+  "heading3": {
+  "custom": "⌥⌘3",
+  "default": "⌥⌘3"
+},
+  "heading4": {
+  "custom": "⌥⌘4",
+  "default": "⌥⌘4"
+},
+  "heading5": {
+  "custom": "⌥⌘5",
+  "default": "⌥⌘5"
+},
+  "heading6": {
+  "custom": "⌥⌘6",
+  "default": "⌥⌘6"
+}
+},
+  "insert": {
+  "blockRef": {
+  "custom": "⌘[",
+  "default": "⌘["
+},
+  "bold": {
+  "custom": "⌘B",
+  "default": "⌘B"
+},
+  "check": {
+  "custom": "⌘L",
+  "default": "⌘L"
+},
+  "font": {
+  "custom": "⌥X",
+  "default": "⌥X"
+},
+  "inline-code": {
+  "custom": "⌘G",
+  "default": "⌘G"
+},
+  "inline-math": {
+  "custom": "⌘M",
+  "default": "⌘M"
+},
+  "italic": {
+  "custom": "⌘I",
+  "default": "⌘I"
+},
+  "kbd": {
+  "custom": "⌘'",
+  "default": "⌘'"
+},
+  "link": {
+  "custom": "⌘K",
+  "default": "⌘K"
+},
+  "mark": {
+  "custom": "⌘E",
+  "default": "⌘E"
+},
+  "strike": {
+  "custom": "⌘D",
+  "default": "⌘D"
+},
+  "sub": {
+  "custom": "⌘J",
+  "default": "⌘J"
+},
+  "sup": {
+  "custom": "⌘H",
+  "default": "⌘H"
+},
+  "table": {
+  "custom": "⌘O",
+  "default": "⌘O"
+},
+  "tag": {
+  "custom": "⌘T",
+  "default": "⌘T"
+},
+  "underline": {
+  "custom": "⌘U",
+  "default": "⌘U"
+}
+},
+  "list": {
+  "checkToggle": {
+  "custom": "⌘Enter",
+  "default": "⌘Enter"
+},
+  "indent": {
+  "custom": "⇥",
+  "default": "⇥"
+},
+  "outdent": {
+  "custom": "⇧⇥",
+  "default": "⇧⇥"
+}
+},
+  "table": {
+  "delete-column": {
+  "custom": "⇧⌘-",
+  "default": "⇧⌘-"
+},
+  "delete-row": {
+  "custom": "⌘-",
+  "default": "⌘-"
+},
+  "insertColumnLeft": {
+  "custom": "⇧⌘L",
+  "default": "⇧⌘L"
+},
+  "insertColumnRight": {
+  "custom": "⇧⌘R",
+  "default": "⇧⌘R"
+},
+  "insertRowAbove": {
+  "custom": "⇧⌘T",
+  "default": "⇧⌘T"
+},
+  "insertRowBelow": {
+  "custom": "⇧⌘D",
+  "default": "⇧⌘D"
+},
+  "moveToDown": {
+  "custom": "⌥⌘B",
+  "default": "⌥⌘B"
+},
+  "moveToLeft": {
+  "custom": "⌥⌘L",
+  "default": "⌥⌘L"
+},
+  "moveToRight": {
+  "custom": "⌥⌘R",
+  "default": "⌥⌘R"
+},
+  "moveToUp": {
+  "custom": "⌥⌘T",
+  "default": "⌥⌘T"
+}
+}
+},
+    "general": {
+  "backlinks": {
+  "custom": "⌥7",
+  "default": "⌥7"
+},
+  "bookmark": {
+  "custom": "⌥3",
+  "default": "⌥3"
+},
+  "closeTab": {
+  "custom": "⌘W",
+  "default": "⌘W"
+},
+  "config": {
+  "custom": "⌥P",
+  "default": "⌥P"
+},
+  "dailyNote": {
+  "custom": "⌥5",
+  "default": "⌥5"
+},
+  "enter": {
+  "custom": "⌥→",
+  "default": "⌥→"
+},
+  "enterBack": {
+  "custom": "⌥←",
+  "default": "⌥←"
+},
+  "fileTree": {
+  "custom": "⌥1",
+  "default": "⌥1"
+},
+  "globalGraph": {
+  "custom": "⌥9",
+  "default": "⌥9"
+},
+  "goBack": {
+  "custom": "⌘←",
+  "default": "⌘←"
+},
+  "goForward": {
+  "custom": "⌘→",
+  "default": "⌘→"
+},
+  "graphView": {
+  "custom": "⌥8",
+  "default": "⌥8"
+},
+  "lockScreen": {
+  "custom": "⌥N",
+  "default": "⌥N"
+},
+  "move": {
+  "custom": "",
+  "default": ""
+},
+  "newFile": {
+  "custom": "⌘N",
+  "default": "⌘N"
+},
+  "outline": {
+  "custom": "⌥2",
+  "default": "⌥2"
+},
+  "search": {
+  "custom": "⌘P",
+  "default": "⌘P"
+},
+  "tag": {
+  "custom": "⌥4",
+  "default": "⌥4"
+},
+  "toggleWin": {
+  "custom": "⌥M",
+  "default": "⌥M"
+}
+}
+  },
+  "backup": {},
+  "sync": {
+    "cloudName": "",
+    "enabled": false,
+    "interval": 0,
+    "method": 0,
+    "uploaded": 0,
+    "downloaded": 0,
+    "synced": 0,
+    "stat": ""
+  },
+  "search": {
+    "document": true,
+    "heading": true,
+    "list": false,
+    "listItem": false,
+    "codeBlock": true,
+    "mathBlock": true,
+    "table": true,
+    "blockquote": false,
+    "superBlock": false,
+    "paragraph": true,
+    "limit": 32,
+    "caseSensitive": false,
+    "name": true,
+    "alias": true,
+    "memo": true
+  },
+  "stat": {
+    "docCount": 0
+  },
+  "api": {
+    "token": "7son6zvd6m4sj2zg"
+  },
+  "newbie": false
+}

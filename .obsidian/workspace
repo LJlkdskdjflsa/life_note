@@ -1,0 +1,120 @@
+{
+  "main": {
+    "id": "2519cf18ed43126f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c29c2e8e8f49e657",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "清華金融科技課/金融科技/2.金融科技20211112.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff537ec622f716e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4bab01a2a633fef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f24394b2f3931229",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f0b2665a2b550c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 171.0107650756836
+  },
+  "right": {
+    "id": "3a5004b263f367b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2894acd4ae0a75bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c999c1646ec381c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "清華金融科技課/金融科技/2.金融科技20211112.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "17eec90bc222dbb8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "清華金融科技課/金融科技/2.金融科技20211112.md"
+              }
+            }
+          },
+          {
+            "id": "8e396cf02e7af427",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c29c2e8e8f49e657",
+  "lastOpenFiles": [
+    "清華金融科技課/金融科技/2.金融科技20211112.md",
+    "清華金融科技課/創新與創業/1.創新管理思潮與開放式創新.md",
+    "清華金融科技課/創新與創業/2.創新規劃預測與發展.md",
+    "清華金融科技課/README.md",
+    "清華金融科技課/金融科技/1.金融科技20211101.md",
+    "區塊鏈研究/Avalanche/白皮書/Platform.pdf",
+    "區塊鏈研究/Avalanche/白皮書/6008d7bbf8b10d1eb01e7e16_Avalanche Platform Whitepaper.md",
+    "筆記工具/筆記app/Obsidian/README.md.md",
+    "4 Governance and The$AVAXToken.md",
+    "5 Discussion.md"
+  ]
+}

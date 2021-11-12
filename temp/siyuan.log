@@ -1,0 +1,50 @@
+I 2021/11/11 16:47:47 working.go:94: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2021/11/11 16:47:47 runtime.go:57: kernel is booting:
+    * ver [1.5.0]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/tmp/.mount_siyuanMe5UT1/resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211022]
+    * workspace directory [/home/lj/Documents/GitHub/life_note, data 20 kB]
+    * rsync [version v3.2.3  protocol version 31]
+    * pandoc [pandoc 2.13]
+D 2021/11/11 16:47:47 conf.go:103: initialized language [en_US] based on device locale
+I 2021/11/11 16:47:47 conf.go:252: local serve path [http://192.168.1.102:6806]
+I 2021/11/11 16:47:47 database.go:134: initialized database tables
+I 2021/11/11 16:47:47 database.go:88: reinitialized database [/home/lj/Documents/GitHub/life_note/temp/siyuan.db]
+I 2021/11/11 16:47:47 conf.go:455: pre-init database size [4.1 kB]
+I 2021/11/11 16:47:47 conf.go:471: post-init database size [4.1 kB], tree stat [count=0, size=0 B]
+I 2021/11/11 16:47:47 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2021/11/11 16:47:48 working.go:112: kernel booted
+E 2021/11/11 16:48:32 theme.go:69: get community theme [mohuishou/siyuan-theme-mohuishou@f63afd8a2aa183c39cc71006e9f2e3cf2011dd3e] failed: [Get "https://cdn.jsdelivr.net/gh/mohuishou/siyuan-theme-mohuishou@f63afd8a2aa183c39cc71006e9f2e3cf2011dd3e/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:32 theme.go:69: get community theme [VIWZ/Galaxy@1c864ba69212e1eff0efa4b8aec1b40b544041f4] failed: [Get "https://cdn.jsdelivr.net/gh/VIWZ/Galaxy@1c864ba69212e1eff0efa4b8aec1b40b544041f4/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:32 theme.go:69: get community theme [zqhjl/Siyuan-Atom-OneDark@a4cf37eb0a7ec25bd5c568210ebd70ab2b7879b7] failed: [Get "https://cdn.jsdelivr.net/gh/zqhjl/Siyuan-Atom-OneDark@a4cf37eb0a7ec25bd5c568210ebd70ab2b7879b7/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:32 theme.go:69: get community theme [VIWZ/frosted-glass@07f798a48eab85c6f92475b8d61e803d4f018e9d] failed: [Get "https://cdn.jsdelivr.net/gh/VIWZ/frosted-glass@07f798a48eab85c6f92475b8d61e803d4f018e9d/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:32 theme.go:69: get community theme [VIWZ/moonlight@2c4e708608a00be284373c2e86a20ac5eb4a716a] failed: [Get "https://cdn.jsdelivr.net/gh/VIWZ/moonlight@2c4e708608a00be284373c2e86a20ac5eb4a716a/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:32 theme.go:69: get community theme [VIWZ/Sunlight@c18eff8011908f7cd0faebff5f8c8b86dc525d60] failed: [Get "https://cdn.jsdelivr.net/gh/VIWZ/Sunlight@c18eff8011908f7cd0faebff5f8c8b86dc525d60/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:32 theme.go:69: get community theme [reedtop/ReedLight@d4332a2342a85ea92dda2de0ff5b24a8660faf05] failed: [Get "https://cdn.jsdelivr.net/gh/reedtop/ReedLight@d4332a2342a85ea92dda2de0ff5b24a8660faf05/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:32 theme.go:69: get community theme [reedtop/ReedDark@5c6e824b8e67d70301393419724dd1eb8a6b4f1a] failed: [Get "https://cdn.jsdelivr.net/gh/reedtop/ReedDark@5c6e824b8e67d70301393419724dd1eb8a6b4f1a/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:34 theme.go:69: get community theme [BLACKT-T/sytheme-onlyme@771ede4e7ae80f0b42b87907523b962918ad2e0d] failed: [Get "https://cdn.jsdelivr.net/gh/BLACKT-T/sytheme-onlyme@771ede4e7ae80f0b42b87907523b962918ad2e0d/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:34 theme.go:69: get community theme [wendaleruan/Reado@1cdaa9d5960955604b0576111719f2fd4fa4da91] failed: [Get "https://cdn.jsdelivr.net/gh/wendaleruan/Reado@1cdaa9d5960955604b0576111719f2fd4fa4da91/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:34 theme.go:69: get community theme [weihan-Chen/pure-dark@aa73fe374bd7cefd3ab3174307bc92af4731ea29] failed: [Get "https://cdn.jsdelivr.net/gh/weihan-Chen/pure-dark@aa73fe374bd7cefd3ab3174307bc92af4731ea29/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:34 theme.go:69: get community theme [scvoet/siyuan-theme-passion@c0828fab9098a73ab5b5804667ef6cbc306ba0ac] failed: [Get "https://cdn.jsdelivr.net/gh/scvoet/siyuan-theme-passion@c0828fab9098a73ab5b5804667ef6cbc306ba0ac/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:34 theme.go:69: get community theme [hzcheney/NordThemeForSiyuan@0db639b94ee051867b67e82539a1fa97c6f9b2a0] failed: [Get "https://cdn.jsdelivr.net/gh/hzcheney/NordThemeForSiyuan@0db639b94ee051867b67e82539a1fa97c6f9b2a0/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:34 theme.go:69: get community theme [whyt-byte/Hot_Spring_theme_for_Siyuan_Dark@311a4764c5f3cdc13df61a2f753956bcfb7108ab] failed: [Get "https://cdn.jsdelivr.net/gh/whyt-byte/Hot_Spring_theme_for_Siyuan_Dark@311a4764c5f3cdc13df61a2f753956bcfb7108ab/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:34 theme.go:69: get community theme [whyt-byte/Fountain_theme_for_Siyuan_Dark@9721325e4e027a8b350a71a324cc8811dd6d28d5] failed: [Get "https://cdn.jsdelivr.net/gh/whyt-byte/Fountain_theme_for_Siyuan_Dark@9721325e4e027a8b350a71a324cc8811dd6d28d5/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:36 theme.go:69: get community theme [whyt-byte/Blue_Topaz_for_Siyuan_Light@915029d8e825002285b4ce10205141dfb6623a88] failed: [Get "https://cdn.jsdelivr.net/gh/whyt-byte/Blue_Topaz_for_Siyuan_Light@915029d8e825002285b4ce10205141dfb6623a88/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:36 theme.go:69: get community theme [whyt-byte/Fountain_theme_for_Siyuan_Light@5fd02aed6af85b39374598fc9af2e8af241e615e] failed: [Get "https://cdn.jsdelivr.net/gh/whyt-byte/Fountain_theme_for_Siyuan_Light@5fd02aed6af85b39374598fc9af2e8af241e615e/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+E 2021/11/11 16:48:36 theme.go:69: get community theme [whyt-byte/Hot_Spring_theme_for_Siyuan_Light@ec97f4b0fd7c6947b064cd5d927fd83eb1a6b8f1] failed: [Get "https://cdn.jsdelivr.net/gh/whyt-byte/Hot_Spring_theme_for_Siyuan_Light@ec97f4b0fd7c6947b064cd5d927fd83eb1a6b8f1/theme.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
+I 2021/11/11 16:57:20 conf.go:306: exited kernel
